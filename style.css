@@ -196,7 +196,6 @@ div.main {
   text-align: inherit;
 }
 .general-menu-container img {
-  border-radius: 60px 5px 0 0;
 }
 img svg {
   align-items: center;
@@ -206,6 +205,8 @@ img svg {
 .general-menu-container .menu-cards img {
   width: 79%;
   height: 21.85185vw;
+  object-fit: contain;
+  /* border-radius: 60px 5px 0 0; */
 }
 .offers-container {
   background-color: #202124;
