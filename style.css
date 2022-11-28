@@ -195,8 +195,7 @@ div.main {
   display: inline-grid;
   text-align: inherit;
 }
-.general-menu-container img {
-}
+
 img svg {
   align-items: center;
   vertical-align: middle;
@@ -255,6 +254,7 @@ img svg {
 .scroll-img {
   width: auto;
   height: inherit;
+  border-radius: 10px;
   display: inline-flex;
   justify-content: space-around;
   margin-left: 100px;
