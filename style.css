@@ -8,11 +8,13 @@ body {
 header {
   width: 100%;
   background-color: transparent;
+  position: absolute;
 }
 div.container {
   display: flex;
   justify-content: center;
 }
+
 #setlocation {
   padding-right: 23px;
 }
@@ -37,11 +39,12 @@ button {
 
 .setloctiondivider {
   margin: 0;
-  border-top: 1px solid #dbdbdb;
+  border-top: 90px solid #dbdbdb;
 }
 div.nav {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
 }
 .headerLogoMobile {
   padding-left: 100px;
@@ -73,7 +76,6 @@ a {
 }
 #signup {
   padding-top: 46px;
-  padding-right: 400px;
 }
 .headerBottom {
   display: flex;
